@@ -1,0 +1,24 @@
+{
+  "name": "autotests_ts",
+  "version": "1.0.0",
+  "description": "Учебный репозиторий для изучения автоматизации тестирования на TypeScript.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximNguen/AutoTests_TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MaximNguen/AutoTests_TS/issues"
+  },
+  "homepage": "https://github.com/MaximNguen/AutoTests_TS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
