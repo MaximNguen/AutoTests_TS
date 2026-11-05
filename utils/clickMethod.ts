@@ -1,4 +1,6 @@
-async function clickButton({ page }: { page: any }, label: string): Promise<void> {
+import type { Page } from '@playwright/test';
+
+async function clickButton({ page }: { page: Page }, label: string): Promise<void> {
     await page.getByLabel(label, { exact: false }).click();
 }
 
